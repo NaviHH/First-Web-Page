@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Navi Singh">
+    <meta name="description"
+        content="Esta página contiene toda las cosas que estoy aprendiendo sobre el curso de HTML.">
+    <title>Mi primera página</title>
+    <link rel="icon" href="icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="main.css" type="text/css">
+</head>
+
+<body id="Cuerpo">
+    <header>
+        <section id="Cabezal">
+            <img src="img/itachi.jpg" alt="itachi" title="Itachi" width="400">
+            <h1>Mi primera página WEB <img src="icon.ico" alt="Icono" title="Icono" width="25" height="25">
+                <br><code>&lt;h1&gt;Hola Mundo!&lt;h1&gt;</code>
+            </h1>
+        </section>
+        <section>
+            <h2>Mapa</h2>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#html">Learn HTML</a>
+                    </li>
+                    <li>
+                        <a href="#vacaciones">Planeando vacaciones</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main>
+
+        <section id="html">
+            <hr>
+
+            <h2>Estoy listo para aprender HTML</h2>
+            <p>Esta será mi primera página.</p>
+            <h3>Mi aprendizaje diario</h3>
+            <p>Déjame contarte como:</p>
+            <ol>
+                <li>Aprendo más sobre WEB DEV.</li>
+                <li>Organizo mi aprendizaje.</li>
+                <li>
+                    Uso recursos de
+                    <a href="https://developer.mozilla.org/"><abbr title="Mozilla Developer Network">MDN</abbr></a>
+                </li>
+            </ol>
+            <aside>
+                <details>
+                    <summary><strong>Adivina el número de horas programo al día?</strong></summary>
+                    <p> <mark> Empiezo cuando termino de trabajar y practico hasta noche</mark></p>
+                </details>
+            </aside>
+            <table>
+                <caption>Mi horario no diario</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Objetivo</th>
+                        <th scope="col">Hora</th>
+                        <th scope="col">Actividad</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Poductivo</th>
+                        <td>
+                            <time datetime="08:00">08:00</time>
+                            <time datetime="11:00">11:00</time>
+                        </td>
+                        <td>Programar</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Nutrir</th>
+                        <td>
+                            <time datetime="11:00"> 11:00 </time>
+                            <time datetime="12:00"> 12:00 </time>
+                        </td>
+                        <td>Comer</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Poductivo</th>
+                        <td>
+                            <time datetime="12:00"> 12:00 </time>
+                            <time datetime="14:00"> 14:00 </time>
+                        </td>
+                        <td>Programar</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Descanso</th>
+                        <td rowspan="2">Todas las horas de más</td>
+                        <td>Tiempo libre</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Descanso</th>
+                        <td>Dormir</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Y eso es lo que no nunca hago</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <hr>
+
+        <section id="vacaciones">
+            <h2>Además, estoy planeando unas vacaciones</h2>
+            <p>He estado trabajando duro y <em>realmente necesito despejarme</em>.</p>
+            <p>
+                Vivo en <abbr title="Alicante City">ALC</abbr> y quiero visitar alguna
+                montaña alta
+            </p>
+            <section>
+                <h3>Lugares que me gustaría visitar</h3>
+                <ul>
+                    <li>
+                        <p>Me han contado cosas interesantes del norte de España</p>
+                    </li>
+                    <li>
+                        <p>Me han contado que debería ir al siguiente lugar:</p>
+                        <address>33004 Oviedo, Asturias</address>
+                    </li>
+                </ul>
+            </section>
+            <!--    TODO: Añadir más lugares    -->
+            <section>
+                <h3>Lugares que me gustaría evitar</h3>
+
+                <dl>
+                    <dt>Sevilla</dt>
+                    <dd>He oído que hace <strong>mucho calor</strong></dd>
+                    <dt>Granada</dt>
+                    <dd>Más de lo mismo</dd>
+                    <dt>Murcia</dt>
+                    <dd>Una puta mierda</dd>
+                </dl>
+            </section>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <p>
+            &lt;&lt;&lt;&copy;
+            <a href="about.html"><abbr title="Autor">Navi Singh</abbr></a> &gt;&gt;&gt;
+        </p>
+        <p>
+            <a href="#">Back to top</a>
+        </p>
+    </footer>
+</body>
+
+</html>

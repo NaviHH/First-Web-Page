@@ -1,0 +1,15 @@
+html {
+
+    font-size: 15px
+}
+
+body{
+    background-color: white;
+    color: black;
+
+}
+
+a:hover, a:active{
+    color:red;
+
+}
